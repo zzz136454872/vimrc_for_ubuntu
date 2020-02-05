@@ -70,6 +70,7 @@ colorscheme koehler
 
 call plug#begin('/usr/share/vim/vim80/vimplug')
 Plug 'scrooloose/nerdtree'
+Plug 'plasticboy/vim-markdown'
 call plug#end()
 
 nmap <C-U> :call CompileRunGcc()<CR>
