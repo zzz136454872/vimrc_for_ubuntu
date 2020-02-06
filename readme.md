@@ -29,5 +29,9 @@ Use Ctrl+u to compile and(or) run your code.
 these will be installed using`:PlugInstall`after vim-plug is installed.
 Before this command, delete what you don't need and add what else you need. 
 
+## for windows
+the similar gvim configure file for windows is at:
+[_vimrc for windows](https://github.com/zzz136454872/_vimrc)
+
 *if anything in need contract me at [zzz136454872@163.com](zzz136454872@163.com)*
 
