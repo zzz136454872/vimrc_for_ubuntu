@@ -66,6 +66,7 @@ set softtabstop=4
 set shiftwidth=4
 set noswapfile
 set nobackup
+set nofoldenable
 colorscheme koehler
 
 call plug#begin('/usr/share/vim/vim80/vimplug')
@@ -74,6 +75,7 @@ Plug 'plasticboy/vim-markdown'
 call plug#end()
 
 nmap <C-U> :call CompileRunGcc()<CR>
+nmap <C-N> :w<CR>:!make<CR>
 
 func! CompileRunGcc()
     exec "w" 
@@ -89,3 +91,4 @@ func! CompileRunGcc()
         :!bash %
     endif 
 endfunc 
+
