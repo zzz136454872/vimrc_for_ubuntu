@@ -5,7 +5,7 @@
 Linux (tested on lubuntu)
 
 ## appearance
-![pict](/etc/vim/pic/appearance.png)
+![pict](https://github.com/zzz136454872/vimrc_for_ubuntu/blob/master/pic/apperance.png)
 
 ## functions 
 
